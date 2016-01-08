@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  resources :posts
+  #make posts the root of our index, webiste
+  root 'posts#index'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

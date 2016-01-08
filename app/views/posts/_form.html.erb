@@ -1,0 +1,31 @@
+
+<!--
+
+partial file 
+
+erb = embeded ruby,
+< and % and = means that it can differentiate between the html and ruby code 
+
+form_for |f| stands for form
+-->
+
+<h1>New Post</h1>
+
+<!-- 
+
+erb = embeded ruby,
+< and % and = means that it can differentiate between the html and ruby code 
+
+form_for |f| stands for form
+-->
+
+
+<%= form_for @post do |f| %>
+	<%= f.label :title %><br>
+	<%= f.text_field :title %><br>
+	<br>
+	<%= f.label :body %><br>
+	<%= f.text_area :body %><br>
+	<br>
+	<%= f.submit %>
+<% end %>
