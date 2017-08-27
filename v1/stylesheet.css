@@ -1,0 +1,282 @@
+body
+{
+	background-image: url("Ladylike.png");
+	background-color: #000000;
+        background-size:17%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+}
+
+#cd{
+    position:relative;
+    height:281px;
+    width:450px;
+    margin:0 auto;
+}
+#cf img{
+    position:absolute;
+    left:0;
+    -moz-transition: opacity 3s ease-in-out;
+    transition: opacity 3s ease-in-out;
+}
+#cf img.top:hover{
+    opacity:0;
+}
+
+.enter {
+
+    color: #FFFFFF;
+    position:absolute;
+    width:96%;
+    bottom:20px;
+    text-align:center;
+
+	font-size: 24px;
+	font-family: monospace;
+}
+
+
+.header /* CSS for the top nav area */
+{
+	width: 100%;
+	height: 50px;
+	/*border-bottom: 1px solid white;*/
+	text-align: center;
+}
+.navbar /* Shows how the ul should be displayed */
+{
+	display: inline-block;
+	margin-top: 15px;
+}
+.navbar ul
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+.navbar ul li
+{
+	display: inline;
+}
+.navbar li a
+{
+	text-decoration: none;
+	font-family: monospace;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 16px;
+	padding: 12px 20px 0 20px;
+}
+.navbar li a:hover
+{
+	color: #00FF00;
+	font-family: monospace;
+	text-decoration: underline;
+}
+
+
+
+.main /* The main div for the homepage */
+{
+	width: 100%;
+	padding-top: 150px;
+	text-align: center;
+}
+.spotlight /* The main div for the spotlight page */
+{
+	width: 95%;
+	padding-top: 20px;
+	padding-left: 20px;
+}
+.backstage /* The main div for the backstage page */
+{
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 50px;
+	padding-left: 25px;
+	padding-right: 50px;
+}
+.about /* The main div for the about page */
+{
+	width: 100%;
+	padding-top: 50px;
+	text-align: left;
+}
+.FAQ /* Style for the FAQ on the about page */
+{
+	padding-left: 70px;
+}
+
+ .footerMain
+    {
+        font-size: 12px;
+	text-align:center;
+        color: White;
+        position: relative;
+        height: 4em;
+        position:absolute;
+        width:100%;
+        bottom:0px;
+        margin: auto;
+
+    }
+
+.footer  /* The style for the footer at the bottom of every page */
+{
+	width:800px;
+	height: 20px;
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 12px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top:300px;
+}
+p /* Style for all p tags */
+{
+	color: #FFFFFF;
+	font-family: monospace;
+}
+h1
+{
+	color: #FFFFFF;
+	font-size: 24px;
+	font-family: monospace;
+}
+h3
+{
+	color: #FFFFFF;
+	font-family: monospace;
+	text-decoration: underline;
+}
+h4
+{
+	color: #00FF00;
+	font-family: monospace;
+	text-decoration: none;
+  height: 10em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+h5
+{
+	color: #FFFFFF;
+	font-family: monospace;
+	text-decoration: none;
+}
+a:hover
+{
+	color: #00FF00;
+	text-decoration: none;
+}
+
+a
+{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+hr
+{
+	width: 100%;
+}
+
+.update
+{
+	color: #FFFFFF;
+}
+#post_title /* Style for the top of the post on the spotlight page */
+{
+	font-family: monospace;
+	font-size: 24px;
+	color: #FFFFFF;
+}
+.question /* Style for the questions on spotlight page */
+{
+	color: #808080;
+	font-family: monospace;
+	font-style: italic;
+	font-weight: bold;
+}
+.answer /* Style for the answers on spotlight page */
+{
+	margin-left: 40px;
+	color: #FFFFFF;
+	font-family: monospace;
+}
+.centered_text /* Just for text that is centered aligned */
+{
+	text-align: center;
+}
+
+
+
+.post_table /* For the table in the spotlight page, this will allow similar styles for multiple posts */
+{
+	border: 0;
+	padding: 0;
+	border-spacing: 0;
+	width: 100%;
+}
+.post_text
+{
+	vertical-align: top;
+	width: 60%;
+}
+.post_other
+{
+	vertical-align: top;
+	width: 35%;
+}
+
+
+.about_table /* For the table display info about us */
+{
+	border: 0;
+	padding: 0;
+	border-spacing: 50px 0;
+	width: 100%;
+}
+.top_about
+{
+	vertical-align: top;
+	width: 33%;
+	text-align: center;
+}
+.bottom_about
+{
+	vertical-align: top;
+	width: 33%;
+	text-align: center;
+	padding-left: 20px;
+}
+
+
+.about_pic /* for the about pictures */
+{
+	width: 300px;
+	height: 300px;
+        border-radius: 50%;
+}
+
+iframe /* iFrame style */
+{
+	border: none;
+	margin: 0;
+	padding: 0;
+	width: 700px;
+	height: 166px;
+}
+
+
+pre {
+    display: block;
+    font-family: monospace;
+    white-space: pre;
+    margin: 1em 0;
+    color: #00ff00;
+} 
