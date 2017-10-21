@@ -1,7 +1,7 @@
 body{
 	background-image: url("ladylikegrad.png");
 	background-color: #000;
-    background-size: 30%;
+    background-size: 23%;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
@@ -13,6 +13,7 @@ h1 {
 	font-variant: normal;
 	font-weight: 400;
 	line-height: 23px;
+	margin-top: 100px;
 	color: #fff;
 }
 h3 {
